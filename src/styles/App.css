@@ -1,0 +1,133 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  padding: 0;
+  background-color: #f8ffba;
+  height: 100%;
+}
+
+.header{
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #d9ffc4;
+}
+
+.content{
+  padding-top: 120px;
+  margin: 0;
+  min-height: 1200px;
+}
+
+@media (max-width: 810px) {
+  .content{
+    padding-top: 220px;
+    margin: 0;
+    min-height: 800px;
+  }
+}
+
+.button{
+  padding: 20px;
+  border: none;
+  outline:none;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16pt;
+}
+
+.show{
+  background-color: #4CAF50;
+}
+
+.hide{
+  background-color: #ffa520;
+}
+
+.toggleButton {
+  margin: 5% 30%;
+}
+
+.forceRand{
+  margin:1%;
+  background-color: #ffa520;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.stop{
+  margin:1%;
+  background-color: #ff0010;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.start{
+  margin:1%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hideSidebar {
+  position: relative;
+  display: none;
+}
+
+.showSidebar {
+  background-color: rgba(255, 165, 32, 0.65);
+  width: 100%;
+}
+
+.randomLabel{
+  padding: 2% 15%;
+  font-size: 16pt;
+}
+
+.randomNumber{
+  font-weight: 700;
+  font-size: 24pt;
+}
+
+.randomButtons{
+  padding: 2% 20%;
+}
+
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  margin: 0;
+  background-color: #4CAF50;
+  text-align: center;
+}
